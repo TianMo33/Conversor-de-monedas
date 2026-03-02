@@ -10,8 +10,8 @@ import java.net.http.HttpResponse;
 
 
 public class Conversor {
-    String direccion_dolarapeso = "https://v6.exchangerate-api.com/v6/5bcfbe08cafa4fb376e75571/pair/USD/MXN";
-    String direccion_dolaraarg = "https://v6.exchangerate-api.com/v6/5bcfbe08cafa4fb376e75571/pair/USD/ARS";
+    String direccion_dolarapeso = "https://v6.exchangerate-api.com/v6/API_KEY/pair/USD/MXN";
+    String direccion_dolaraarg = "https://v6.exchangerate-api.com/v6/API_KEY/pair/USD/ARS";
 
     public static double obtenerTasa(String direccion) throws IOException, InterruptedException {
         HttpClient client = HttpClient.newHttpClient();
